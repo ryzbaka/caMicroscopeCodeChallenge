@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+
+div{
+  /* border:1px solid orange; */
+  height:100%;
+}
+html,body{
+  padding:0;
+  margin:0;
+  height:100%;
+  width:100%
+}
+#root{
+  margin:0;
+  padding:0;
+  height:70%;
+  width:100%;
+  /* border : 1px solid green; */
+  
+}
+.chat-window{
+  /* border: 1px solid red; */
+  height:75%;
+}
+
+.chat-log{
+  /* border : 5px solid #202020; */
+  /* height:80%; */
+  /* background-color: #ff3300; */
+  overflow: auto;
+  max-height: 300px;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.chat-interface{
+  border: 5px solid #202020;
+  height:30%;
+  /* background-color: #202020; */
+}
